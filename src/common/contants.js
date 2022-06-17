@@ -1,0 +1,5 @@
+export const HOT_RECOMMEND_LIMIT = 8
+
+export const NEW_ALBUM_PAGE_NUM = 2
+export const NEW_ALBUM_PER_PAGE = 5
+export const RECOMMEND_RANKING = [19723756,3779629,2884035]

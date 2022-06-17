@@ -17,18 +17,24 @@ export function getHotRecommends(limit) {
 
 export function getNewAlbums(limit) {
   return request({
-    url: "/top/album",
+    url: "/album/list",
     params: {
       limit
     }
   })
 }
 
-export function getTopList(idx) {
+export function getTopList() {
   return request({
-    url: "/top/list",
-    params: {
-      idx
+    url: "/toplist"
+  })
+}
+
+export function getPlaylist(id) {
+  return request({
+    url: "/playlist/detail",
+    params:{
+      id
     }
   })
 }
